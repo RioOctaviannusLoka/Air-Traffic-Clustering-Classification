@@ -10,6 +10,8 @@
 - [Project Goals](#project-goals)
 - [Key Insights](#key-insights)
 - [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
 
 # Project Overview
 
@@ -60,6 +62,78 @@ Some of the key findings from the project include:
 <a href="http://seaborn.pydata.org/"><img src="https://go-skill-icons.vercel.app/api/icons?i=seaborn" alt="Seaborn" title="Seaborn" width="65" height="65"/></a>
 <a href="https://scikit-learn.org/stable/"><img src="https://go-skill-icons.vercel.app/api/icons?i=scikitlearn" alt="Scikit Learn" title="Scikit Learn" width="65" height="65"/></a>
 
+# Installation
+
+1. Clone this repository
+
+   ```bash
+   git clone https://github.com/RioOctaviannusLoka/Air-Traffic-Clustering-Classification.git
+   ```
+
+2. Install Python Virtual Environment Library
+
+   ```bash
+   pip install virtualenv
+   ```
+
+3. Create Python Virtual Environment
+
+   Linux / Mac:
+
+   ```bash
+   python3 -m virtualenv venv
+   ```
+
+   Windows:
+
+   ```bash
+   python -m virtualenv venv
+   ```
+
+4. Activate the Environment
+
+   Linux / Mac:
+
+   ```bash
+   source venv\bin\activate
+   ```
+
+   Windows:
+
+   ```bash
+   venv\Scripts\activate
+   ```
+
+5. Install all the requirements
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+# Usage
+1. Activate the Environment
+
+   Linux / Mac:
+
+   ```bash
+   source venv\bin\activate
+   ```
+
+   Windows:
+
+   ```bash
+   venv\Scripts\activate
+   ```
+
+2. Open clustering notebook, then run each cell codes
+
+3. Open classification notebook, then run each cell codes
+
+4. Exit the Virtual Environment
+
+   ```bash
+   deactivate
+   ```
 
 ---
 
